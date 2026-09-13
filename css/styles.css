@@ -655,7 +655,15 @@ h2 {
   background: var(--line);
 }
 
-
+.timeline-branches .timeline-item::after {
+  content: "";
+  position: absolute;
+  left: -1.6rem;
+  top: 1.4rem;
+  width: 1.4rem;
+  height: 2px;
+  background: var(--line);
+}
 .cert-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
